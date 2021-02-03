@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "middle-earth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,8 @@
     "eject": "react-scripts eject",
     "release": "standard-version",
     "lint": "eslint ./ -c .eslintrc --ext .js,.jsx,.ts,.tsx",
-    "format": "eslint ./ -c .eslintrc --fix --ext .js,.jsx,.ts,.tsx"
+    "format": "eslint ./ -c .eslintrc --fix --ext .js,.jsx,.ts,.tsx",
+    "mac:purge": "rm -rf node_modules package-lock.json; npm i"
   },
   "eslintConfig": {
     "extends": "react-app"
